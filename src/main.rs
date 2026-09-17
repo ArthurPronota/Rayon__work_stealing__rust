@@ -13,5 +13,5 @@ fn main() {
                             .map(|x| x * x)
                             .collect::<Vec<_>>() ;
 
-    println!("{:?}", v_res) ;
+    println!("{:?}", v_res) ; // [0, 1, 9, 16, 25]
 }
